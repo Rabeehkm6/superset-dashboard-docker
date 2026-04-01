@@ -35,5 +35,5 @@ Login:
 	•	Works across charts
 
   📸 Dashboard Preview
-  ![Dashboard](Screenshot 2026-04-01 161900.png)
-  ![Dashboard](Screenshot 2026-04-01 161919.png)
+  ![Dashboard](Screenshot.png)
+  ![Dashboard](Screenshot1.png)
