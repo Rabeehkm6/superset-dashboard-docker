@@ -4,6 +4,9 @@ USER root
 
 RUN pip install psycopg2-binary
 
+# 🔑 ADD SECRET KEY HERE
+ENV SUPERSET_SECRET_KEY=mysecret123456789
+
 USER superset
 
 RUN superset db upgrade && \
