@@ -1,0 +1,27 @@
+version: "3.7"
+
+services:
+  superset:
+    image: apache/superset
+    container_name: superset_app
+    ports:
+      - "8088:8088"
+    environment:
+      - SUPERSET_ENV=production
+    volumes:
+      - ./superset_home:/app/superset_home
+    depends_on:
+      - db
+      - redis
+
+  db:
+    image: postgres:13
+    container_name: superset_db
+    environment:
+      POSTGRES_DB: superset
+      POSTGRES_USER: superset
+      POSTGRES_PASSWORD: superset
+
+  redis:
+    image: redis:latest
+    container_name: superset_redis
