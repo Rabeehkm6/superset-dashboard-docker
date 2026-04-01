@@ -1,17 +1,17 @@
-🚀 Superset Dashboard with Docker
+**🚀 **Superset Dashboard with Docker****
 
 📌 Overview
 
 This project demonstrates an end-to-end Apache Superset setup using Docker.
 It includes interactive dashboards, pivot tables, map visualizations, and global filters.
 
-🛠️ Tech Stack
+**🛠️ Tech Stack**
 	•	Apache Superset
 	•	Docker & Docker Compose
 	•	PostgreSQL
 	•	Redis
 
-  ▶️ Run the Project
+ ** ▶️ Run the Project**
   docker-compose up -d
   Then open:
 
@@ -21,7 +21,7 @@ Login:
 	•	Username: admin
 	•	Password: admin
 
-  📊 Features Implemented
+  **📊 Features Implemented**
 
 1. Pivot Table with Summary Row
 	•	Custom summary row using average calculation
@@ -34,6 +34,6 @@ Login:
 	•	Multi-select filter
 	•	Works across charts
 
-  📸 Dashboard Preview
+ ** 📸 Dashboard Preview**
   ![Dashboard](Screenshot.png)
   ![Dashboard](Screenshot1.png)
